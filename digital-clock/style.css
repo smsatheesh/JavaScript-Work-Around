@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-image: url( "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?fm=jpg&w=3000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D" );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#clock-container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    height: 46.2em;
+}
+
+#clock {
+    font-family: monospace;
+    font-size: 6em;
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur( 5px );
+    width: 100%;
+    background-color: hsla( 0, 0%, 100%, 0.1 );
+}
